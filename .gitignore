@@ -1,0 +1,36 @@
+# 虚拟环境
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# 环境变量（绝对不要提交）
+.env
+
+# 向量数据库
+chroma_db/
+faiss_index/
+
+# IDE
+.vscode/
+.idea/
+
+# 日志
+*.log
+
+# 图片生成
+image/
+
+# PDF 文档（如果文件较大，建议用 Git LFS 或单独存储）
+# doc/
+
+# Windows
+Thumbs.db
+desktop.ini
